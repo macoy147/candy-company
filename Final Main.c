@@ -14,7 +14,7 @@ void typePrint(const char *text, useconds_t delay)
 }
 
 void clearScreen()
-{
+{   
 #ifdef _WIN32
     system("cls");
 #else
